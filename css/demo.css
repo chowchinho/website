@@ -1,0 +1,88 @@
+/*
+  Custom styles
+ */
+.demo-text {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 2em;
+	right: 0;
+	width: 100%;
+	display: table;
+	height: auto;
+	color: #fcfcfc;
+	/*text-transform: uppercase;*/
+	text-align: center;
+	font-size: 8em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	letter-spacing: -0.06em;
+	line-height: 1.2em;
+}
+.medium {
+	font-size: 3em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	color: #eeeeee;
+	letter-spacing: -0.04em;
+	line-height: 2.0em;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 1em;
+	right: 0;
+	width: 100%;
+	display: table;
+	height: auto;
+}
+.email, .email a, .email a:active, .email a:link, .email a:visited {
+	font-size: 0.8em;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #CCC;
+	line-height: 1em;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 6em;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	display: table;
+	height: auto;
+	
+}
+.email a:hover {
+	color:#FC3;
+	text-decoration:none;
+}
+#overlay{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  opacity:0.6; /* see below for cross-browser opacity */
+}
+
+#inline_content {
+  	font-size: 0.8em;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+}
+#inline_content strong {
+    line-height: 2em;
+  	font-size: 1em;
+} 
+#inline_content li a:link, #inline_content li a:active, #inline_content li a:visited {
+	color: #333;
+  	line-height: 2em;
+}
+#inline_content li a:hover {
+	color: #CCC;
+}
+
+
